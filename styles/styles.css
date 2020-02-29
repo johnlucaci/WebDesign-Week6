@@ -1,0 +1,134 @@
+.navHeader	{
+	background-color: grey;
+    border: 1px solid green;
+    border-radius: 5px;
+	padding: 5px;
+}
+
+.navHeader ul{
+	text-align: center;
+	font-size 1.2em;
+}
+
+.navHeader ul li{
+	list-style-type: none;
+	background-color: #B2B2B2;
+	display: inline;
+	padding: 15px;
+	margin: 5px;
+}
+
+.navHeader ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+.navHeader ul li:hover{
+	background-color: #92d199;
+}
+
+header {
+	background-image: url(../images/header_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	color: navajowhite;
+	border: 1px solid blue;
+}
+
+#content {
+	float: left;
+	width: 80%;
+	margin-right: 15px;
+	border: 1px solid grey;
+}
+
+aside {
+	border: 1px solid yellow;
+	width: 18.5%;
+	float: right;
+}
+
+aside ul li a {
+	color: blue;
+	text-decoration: none;
+}
+
+aside ul li {
+	list-style-type: none;
+}
+
+.col_detail {
+	column-count: 3;
+	column-rule: 1px solid white;
+	column-gap: 30px;
+	padding: 2px;
+}
+
+footer {
+	clear: both;
+	border: 1px solid orange;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+}
+
+#bigPic {
+ width: 100%;   
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+.navFooter	{
+	background-color: grey;
+}
+
+.navFooter ul{
+	text-align: center;
+	font-size 1.2em;
+}
+
+.navFooter ul li{
+	list-style-type: none;
+	background-color: grey;
+	display: inline;
+	padding: 15px;
+	margin: 5px;
+}
+
+.navFooter ul li a{
+	color: white;
+	text-decoration: none;	
+}
+
+.navFooter ul li:hover{
+	background-color: #92d199;
+}
+
+#copyright{
+    margin: 0px;
+    padding: 0px;
+}
